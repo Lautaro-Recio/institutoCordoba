@@ -1,0 +1,26 @@
+nav a{
+    color: $verde !important;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    width: 25% !important;
+}
+nav img{
+    width: 70px;
+    height: 70px;
+    margin-left: 5%;
+}
+nav h1{
+    font-size: 21px;
+    margin: auto;
+    width: 30%;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.navbar-collapse ul{
+    width: 100%;
+    margin-left: 25% !important;
+}

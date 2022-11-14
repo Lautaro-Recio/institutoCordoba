@@ -1,0 +1,21 @@
+@import "colores";
+@import "nav";
+@import "carousel";
+@import "educacion";
+@import "footer";
+@import "contacto";
+@import "pregs";
+
+.row h5{
+    text-align: center;
+    font-size: 21px ;
+    font-weight: 500;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.seccion{
+    border-top: solid 1px $verde;
+    padding-top: 5%;
+}

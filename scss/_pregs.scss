@@ -1,0 +1,30 @@
+.accordion{
+    padding: 0% 15%;
+}
+.accordion-item{
+    margin: 5%;
+    border: 2px solid $verde !important;
+    
+}
+.accordion-button{
+    color: $verde;
+ 
+}
+.accordion-button:not(.collapsed) {
+    color: $blanco;
+    background-color: $verdeClaro;
+    box-shadow: inset 0 -1px 0 rgba(14, 216, 45, 0.25);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image:url("../assets/images/flecha.png")
+}
+.accordion p{
+    margin: 0%;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: $verde;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(14, 216, 45, 0.25);
+}

@@ -5,11 +5,20 @@
 @import "footer";
 @import "contacto";
 @import "pregs";
+@import "historia";
 
 .row h5{
+    display: flex;
     text-align: center;
     font-size: 21px ;
     font-weight: 500;
+    background-color: $verde;
+    color: $blanco;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5% 15%;
 }
 
 *{

@@ -14,32 +14,36 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://institutobancarioeyc.site/wp-content/uploads/2022/10/Copia-de-LOGO-PNG-NEGRO.png" alt=""></a>
-          <h1 >Instituto Bancario de Córdoba</h1>
+          <a class="navbar-brand" href="#carouselExampleCaptions"><img src="https://institutobancarioeyc.site/wp-content/uploads/2022/10/Copia-de-LOGO-PNG-NEGRO.png" alt=""></a>
+          
+          <h1>Instituto Bancario Córdoba <br> Educar y Capacitar </h1>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <img class="navbar-toggler-icon" src="./assets/images/menu.png" alt="">
           </button>
           <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item  ms-auto">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Inicio</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link" href="#historia">Historia</a>
               </li>
               <li class="nav-item dropdown  ms-auto">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#educacion" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Educacion
                 </a>
                 <ul class="dropdown-menu ms-auto">
-                  <li><a class="dropdown-item ms-auto" href="#">Superior</a></li>
-                  <li><a class="dropdown-item ms-auto" href="#">Secundario</a></li>
-                  <li><a class="dropdown-item ms-auto" href="#">Cursos</a></li>
+                  <li><a class="dropdown-item ms-auto" href="#superior">Superior</a></li>
+                  <li><a class="dropdown-item ms-auto" href="#secundario">Secundario</a></li>
+                  <li><a class="dropdown-item ms-auto" href="#cursos">Cursos</a></li>
                 </ul>
               </li>
               <li class="nav-item ms-auto">
-                <a class="nav-link" href="#">Preguntas frecuentes</a>
+                <a class="nav-link" href="#pregs">Preguntas</a>
               </li>
               <li class="nav-item ms-auto">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
              
             </ul>
@@ -87,7 +91,7 @@
       </div>
 
 
-    <div class="container">
+    <div class="container" id="historia">
 
       <div class=" row seccion">
        
@@ -107,7 +111,7 @@
         </div>
       </div>
 
-        <div class=" row seccion">
+        <div class=" row seccion" id="superior">
             <div class="col-lg-6 info">
                   <h5>Nivel superior</h5>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores.</p>
@@ -156,7 +160,7 @@
      
 
         <div class=" row seccion">
-            <div class="col-lg-6 info">
+            <div class="col-lg-6 info " id="secundario">
                 <h5>Nivel Secundario</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores.</p>
             </div>
@@ -201,8 +205,54 @@
 
             
         </div>
+        <div class=" row seccion">
+          <div class="col-lg-6 info " id="cursos">
+              <h5>Curso de capacitacion docente</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores.</p>
+          </div>
 
-        <div class="row seccion">
+          <div class="col-lg-6 info ">
+              <h5>Plan de Estudios </h5>
+              <ul class="plan">
+                <li>
+                    <p>Materia</p> 
+                    <ul>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                </li>
+                <li>
+                  <p>Materia</p> 
+                  <ul>
+                      <li>item</li>
+                      <li>item</li>
+                      <li>item</li>
+                  </ul>
+              </li>
+              <li>
+                <p>Materia</p> 
+                <ul>
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item</li>
+                </ul>
+            </li>
+            <li>
+              <p>Materia</p> 
+              <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+              </ul>
+          </li>
+            </ul>
+          </div>
+
+          
+      </div>
+
+        <div class="row seccion" id="pregs">
             <div class="col-lg-12">
                 <h5>Preguntas frecuentes</h5>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -249,7 +299,7 @@
                   </div>
             </div>
 
-            <div class="row seccion">
+            <div class="row seccion" id="contacto">
               <div class="col-lg-6">
                   <h5>Contacto</h5>
                     <form id="form">
@@ -312,18 +362,18 @@
                         <div>
                             <label >Mensaje</label>
                             <div>
-                                <input id="Mensaje" type="textarea" placeholder="¿En qué puedo ayudarte?" ></input>
+                                <input id="mensaje" type="textarea" placeholder="¿En qué puedo ayudarte?" ></input>
                             </div>
                         </div>
                         <div class="botones">
-                            <button type="submit">Enviar</button>
+                            <button disabled="true" id="enviar" type="submit">Enviar</button>
                             <button type="reset">Reset</button>
                         </div>
     
                     </form>
                 </div>
                 <div class="col-lg-6 mapa">
-                  <h5>Donde Encontranos</h5>
+                  <h5>Donde Encontrarnos</h5>
 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.856558938524!2d-64.18377258534585!3d-31.418077903476515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987f9c9ab531%3A0xe95598e52c738261!2sInstituto%20Bancario%20Cordoba!5e0!3m2!1ses!2sar!4v1668180476986!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -334,7 +384,7 @@
     </div>
     
     <footer class="seccion">
-        <h3>Encontranos en las redes como</h3>
+        <h4>Encontranos en las redes</h4>
         <div >
           <a target="_blank" href="">
             <div>

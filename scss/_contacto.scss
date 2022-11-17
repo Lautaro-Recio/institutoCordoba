@@ -8,7 +8,7 @@ form div{
 form div div{
     width: 100%;
     margin-top:0% ;
-
+    margin-left: 5%;
 }
 form label{
   margin: 2%;
@@ -139,7 +139,7 @@ iframe{
     background-color: $verde;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 992px) {
+@media only screen and (min-width: 280px) and (max-width: 992px) {
 
     .navbar-collapse ul{
         margin-left: 0% !important;
@@ -147,4 +147,16 @@ iframe{
     .servicios{
         display: block !important;
     }
+    form div div{
+      margin-left: 10%;
+    }
+    form,.servicios label  {
+      font-size: 13px;
+    }
+    .botones button{
+      width: 80px;
+      height: 35px;
+      font-size: 13px;
+
+  }
 }

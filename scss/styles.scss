@@ -7,6 +7,10 @@
 @import "pregs";
 @import "historia";
 
+body{
+    overflow-x: hidden;
+}
+
 .row h5{
     display: flex;
     text-align: center;
@@ -19,6 +23,8 @@
     align-items: center;
     border-radius: 5px;
     margin: 5% 15%;
+    font-family: 'PT Serif', serif;    
+
 }
 
 *{

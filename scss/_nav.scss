@@ -1,35 +1,61 @@
+.navbar{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
 nav a{
     color: $verde !important;
     font-weight: 500;
 }
 
 .navbar-brand{
-    width: 25% !important;
+    width: 30% !important;
 }
 nav img{
     width: 70px;
     height: 70px;
     margin-left: 5%;
 }
+.nav-link{
+    padding-left: 0 !important;
+}
+
 nav h1{
     font-size: 21px;
     margin: auto;
-    width: 30%;
-    text-align: right;
-    font-family: 'Lora', serif;
-    font-weight: 600;
+    text-align: center;
+    width: 35%;
+    font-family: 'PT Serif', serif;    
+    font-weight: 500;
+    color: $verde;
 }
 
 .navbar-collapse ul{
     width: 100%;
-    margin-left: 25% !important;
 }
 
 
 
-@media only screen and (min-width: 578px) and (max-width: 992px) {
+@media only screen and (min-width: 286px) and (max-width: 992px) {
 
     .navbar-collapse ul{
         margin-left: 0% !important;
     }
+    nav h1{
+        margin: 0%;
+        width: 50%;
+    }
+    nav h1{
+        font-size: 15px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 285px) {
+
+    nav h1{
+        width: 98px !important;
+    }
+    
 }

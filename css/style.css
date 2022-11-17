@@ -1,30 +1,50 @@
+.navbar {
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
 nav a {
   color: #436c49 !important;
   font-weight: 500; }
 
 .navbar-brand {
-  width: 25% !important; }
+  width: 30% !important; }
 
 nav img {
   width: 70px;
   height: 70px;
   margin-left: 5%; }
 
+.nav-link {
+  padding-left: 0 !important; }
+
 nav h1 {
   font-size: 21px;
   margin: auto;
-  width: 30%;
-  text-align: right;
-  font-family: 'Lora', serif;
-  font-weight: 600; }
+  text-align: center;
+  width: 35%;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  color: #436c49; }
 
 .navbar-collapse ul {
-  width: 100%;
-  margin-left: 25% !important; }
+  width: 100%; }
 
-@media only screen and (min-width: 578px) and (max-width: 992px) {
+@media only screen and (min-width: 286px) and (max-width: 992px) {
   .navbar-collapse ul {
-    margin-left: 0% !important; } }
+    margin-left: 0% !important; }
+  nav h1 {
+    margin: 0%;
+    width: 50%; }
+  nav h1 {
+    font-size: 15px !important; } }
+
+@media only screen and (max-width: 285px) {
+  nav h1 {
+    width: 98px !important; } }
+
+.carousel {
+  padding-top: 5%; }
 
 .carousel img {
   width: 100%;
@@ -57,6 +77,11 @@ nav h1 {
 .plan p {
   font-weight: 600; }
 
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .info {
+    padding: 2% 8%;
+    text-align: center; } }
+
 footer {
   text-align: center;
   margin-top: 5%; }
@@ -78,7 +103,8 @@ form div {
 
 form div div {
   width: 100%;
-  margin-top: 0%; }
+  margin-top: 0%;
+  margin-left: 5%; }
 
 form label {
   margin: 2%;
@@ -190,11 +216,19 @@ iframe {
 #c1 input:checked ~ .checkmark {
   background-color: #436c49; }
 
-@media only screen and (min-width: 300px) and (max-width: 992px) {
+@media only screen and (min-width: 280px) and (max-width: 992px) {
   .navbar-collapse ul {
     margin-left: 0% !important; }
   .servicios {
-    display: block !important; } }
+    display: block !important; }
+  form div div {
+    margin-left: 10%; }
+  form, .servicios label {
+    font-size: 13px; }
+  .botones button {
+    width: 80px;
+    height: 35px;
+    font-size: 13px; } }
 
 .accordion {
   padding: 0% 15%; }
@@ -223,6 +257,11 @@ iframe {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(15, 216, 45, 0.25); }
 
+@media only screen and (min-width: 286px) and (max-width: 992px) {
+  .accordion {
+    padding: 0% 5%;
+    font-size: 15px; } }
+
 .video {
   margin: 5% 0%;
   display: flex;
@@ -233,6 +272,18 @@ iframe {
   width: 80%;
   height: 400px;
   margin: 0%; }
+
+@media only screen and (min-width: 286px) and (max-width: 992px) {
+  .video iframe {
+    width: 90%;
+    height: 300px; } }
+
+@media only screen and (max-width: 500px) {
+  .video iframe {
+    height: 250px !important; } }
+
+body {
+  overflow-x: hidden; }
 
 .row h5 {
   display: flex;
@@ -245,7 +296,8 @@ iframe {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  margin: 5% 15%; }
+  margin: 5% 15%;
+  font-family: 'PT Serif', serif; }
 
 * {
   font-family: 'Montserrat', sans-serif; }

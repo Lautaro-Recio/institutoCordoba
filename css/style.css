@@ -94,9 +94,16 @@ nav h1 {
   margin: 0% !important;
   font-size: 25px !important; }
 
+.horarios div {
+  display: flex; }
+
 .horarios a {
   text-decoration: none;
-  padding: 3%; }
+  padding: 1.5%;
+  width: 50% !important;
+  height: 70px !important;
+  margin: 2%;
+  font-size: 13px; }
 
 @media only screen and (min-width: 280px) and (max-width: 992px) {
   .info {
@@ -107,8 +114,10 @@ nav h1 {
     margin: 0% 10% !important; }
   .infoEstudio p {
     font-size: 14px; }
+  .horarios div {
+    display: flex; }
   .horarios a {
-    margin-bottom: 5%; } }
+    margin-bottom: 10%; } }
 
 footer {
   text-align: center;
@@ -384,7 +393,3 @@ b {
 .seccion {
   border-top: solid 1px #436c49;
   padding-top: 5%; }
-
-@media only screen and (min-width: 280px) and (max-width: 992px) {
-  .row h5 {
-    margin: 2% 0%; } }

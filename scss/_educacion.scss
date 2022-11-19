@@ -32,10 +32,16 @@
     margin: 0% !important;
     font-size: 25px !important;
 }
-
+.horarios div{
+    display: flex;
+}
 .horarios a{
     text-decoration: none;
-    padding: 3%;
+    padding: 1.5%;
+    width: 50% !important;
+    height: 70px !important;
+    margin: 2%;
+    font-size: 13px;
 }
 @media only screen and (min-width: 280px) and (max-width: 992px) {
     .info{
@@ -49,7 +55,10 @@
     .infoEstudio p{
         font-size: 14px;
     }
+    .horarios div{
+        display: flex;
+    }
     .horarios a{
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 }

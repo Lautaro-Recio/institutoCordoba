@@ -1,0 +1,43 @@
+.swiper{
+    height: 100%;
+    text-align: center;    
+
+}
+.swiper ul{
+    margin: 0% 10%;
+    padding: 0px;
+}
+.swiper b{
+    color: $blanco; 
+}
+.swiper p{
+    border-bottom: 1px solid $gris ;
+    margin: 0% 10%;
+    color: $verde;
+    font-size: 18px;
+
+}
+.swiper li{
+    margin: 2% 10%;
+    list-style: none;
+    border: 1px solid $gris;
+    background-color: $verdeClaro;
+    color: $blanco;
+    padding: 5px;
+    
+}
+.swiper-button-next{
+    right: 35px!important;
+}
+.swiper-button-prev{
+    left: 35px!important;
+}
+
+.swiper-button-prev::after,.swiper-button-next::after{
+    color: $verde;
+    font-size: 30px !important; 
+}
+
+.swiper-pagination-bullet-active{
+    background-color: $verde !important;
+}

@@ -6,15 +6,18 @@
 @import "contacto";
 @import "pregs";
 @import "historia";
+@import "swiper";
 
 body{
     overflow-x: hidden;
 }
-
+b{
+    color: $verdeBold;
+}
 .row h5{
     display: flex;
     text-align: center;
-    font-size: 21px ;
+    font-size: 19px ;
     font-weight: 500;
     background-color: $verde;
     color: $blanco;
@@ -22,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 5% 15%;
+    margin: 2% 15%;
     font-family: 'PT Serif', serif;    
 
 }

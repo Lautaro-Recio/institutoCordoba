@@ -13,7 +13,7 @@
 .accordion-button:not(.collapsed) {
     color: $blanco;
     background-color: $verdeClaro;
-    box-shadow: inset 0 -1px 0 rgba(14, 216, 45, 0.25);
+    box-shadow: inset 0 -1px 0 rgba(13, 54, 19, 0.25);
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -26,7 +26,7 @@
     z-index: 3;
     border-color: $verde;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(15, 216, 45, 0.25);
+    box-shadow: 0 0 0 0.25rem rgba(2, 110, 19, 0.25);
 }
 @media only screen and (min-width: 286px) and (max-width: 992px) {
 

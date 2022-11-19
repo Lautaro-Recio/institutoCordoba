@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.infoEstudio p{
+    padding: 2% 3%;
+    font-size: 16px;
+}
 .plan{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -23,7 +27,15 @@
 }
 .plan p{
    font-weight: 600;
-   
+}
+.tituloSeccion{
+    margin: 0% !important;
+    font-size: 25px !important;
+}
+
+.horarios a{
+    text-decoration: none;
+    padding: 3%;
 }
 @media only screen and (min-width: 280px) and (max-width: 992px) {
     .info{

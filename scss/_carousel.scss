@@ -9,3 +9,9 @@
     color: $negro;
     background-color: rgba(216, 216, 216, 0.5);
 }
+
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+    .carousel img{
+        height: 350px;
+    }
+}

@@ -8,8 +8,8 @@
 @import "historia";
 @import "swiper";
 
-body{
-    overflow-x: hidden;
+html,body{
+    overflow-x: hidden !important;
 }
 b{
     color: $verdeBold;
@@ -36,4 +36,12 @@ b{
 .seccion{
     border-top: solid 1px $verde;
     padding-top: 5%;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+    .row h5{
+       margin: 2% 0%;
+    
+    }
 }

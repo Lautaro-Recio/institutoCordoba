@@ -33,11 +33,16 @@ nav h1 {
 @media only screen and (min-width: 286px) and (max-width: 992px) {
   .navbar-collapse ul {
     margin-left: 0% !important; }
+  .navbar-brand {
+    width: auto !important; }
   nav h1 {
     margin: 0%;
     width: 50%; }
   nav h1 {
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+  nav img {
+    width: 50px;
+    height: 50px; } }
 
 @media only screen and (max-width: 285px) {
   nav h1 {
@@ -53,6 +58,10 @@ nav h1 {
 .carousel-caption {
   color: #181818;
   background-color: rgba(216, 216, 216, 0.5); }
+
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .carousel img {
+    height: 350px; } }
 
 .info {
   padding: 2%;
@@ -91,8 +100,15 @@ nav h1 {
 
 @media only screen and (min-width: 280px) and (max-width: 992px) {
   .info {
-    padding: 2% 8%;
-    text-align: center; } }
+    padding: 4% 8%;
+    text-align: center; }
+  .tituloSeccion {
+    width: 80%;
+    margin: 0% 10% !important; }
+  .infoEstudio p {
+    font-size: 14px; }
+  .horarios a {
+    margin-bottom: 5%; } }
 
 footer {
   text-align: center;
@@ -336,8 +352,14 @@ iframe {
 .swiper-pagination-bullet-active {
   background-color: #436c49 !important; }
 
-body {
-  overflow-x: hidden; }
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .swiper-button-next {
+    right: 20px !important; }
+  .swiper-button-prev {
+    left: 20px !important; } }
+
+html, body {
+  overflow-x: hidden !important; }
 
 b {
   color: #028516; }
@@ -362,3 +384,7 @@ b {
 .seccion {
   border-top: solid 1px #436c49;
   padding-top: 5%; }
+
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .row h5 {
+    margin: 2% 0%; } }

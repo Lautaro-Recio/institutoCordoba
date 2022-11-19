@@ -97,13 +97,27 @@ nav h1 {
 .horarios div {
   display: flex; }
 
+.horarios div div {
+  border: 2px solid #436c49;
+  font-size: 15px;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px; }
+
 .horarios a {
+  justify-content: center;
   text-decoration: none;
-  padding: 1.5%;
-  width: 50% !important;
-  height: 70px !important;
-  margin: 2%;
-  font-size: 13px; }
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  color: #436c49;
+  border-radius: 10px;
+  padding: 5px 0px; }
+
+.horarios a:hover {
+  background-color: #436c49;
+  color: #f0f0f0; }
 
 @media only screen and (min-width: 280px) and (max-width: 992px) {
   .info {
@@ -175,7 +189,7 @@ textarea {
   margin-left: 15%;
   justify-content: space-around; }
 
-.botones button, .horarios a {
+.botones button {
   width: 100px;
   height: 40px;
   font-size: 15px;
@@ -183,7 +197,7 @@ textarea {
   border: 2px solid #436c49;
   color: #436c49; }
 
-.botones button:hover, .horarios a:hover {
+.botones button:hover {
   background-color: #436c49;
   border: 2px solid #f0f0f0;
   color: #f0f0f0; }
@@ -193,7 +207,7 @@ iframe {
   border-radius: 25px; }
 
 .mapa iframe {
-  width: 100%;
+  width: 90%;
   height: 500px; }
 
 /* Checkbox */

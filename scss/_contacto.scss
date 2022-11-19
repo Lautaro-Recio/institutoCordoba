@@ -50,7 +50,7 @@ textarea{
     justify-content: space-around;
 }
 
-.botones button, .horarios a{
+.botones button{
     width: 100px;
     height: 40px;
     font-size: 15px;
@@ -59,7 +59,7 @@ textarea{
       
     color: $verde;
 }
-.botones button:hover, .horarios a:hover{
+.botones button:hover{
     background-color: $verde;    
     border:2px solid $blanco;  
     color: $blanco;
@@ -71,7 +71,7 @@ iframe{
 }
 
 .mapa iframe{
-    width: 100%;
+    width: 90%;
     height: 500px;
 }
 

@@ -16,12 +16,11 @@ function comprobar(){
                 });
 }
 
-const inputs= [
+let inputs= [
     {nombre:false},
     {apellido:false},
-    {email:false},
     {tel:false},
-    {mensaje:false},
+    {email:false},
 ]
 
 /* Terminar form */
@@ -29,49 +28,61 @@ const validarInput= (expresion,c,input) => {
     if(expresion.test(c.target.value) === true){
         document.getElementById(c.target.id).classList.add("bien")
         document.getElementById(c.target.id).classList.remove("mal")
-        inputs.find(element => console.log(element[1]))
-        console.log(inputs)
+       
+        
     }else{
         document.getElementById(c.target.id).classList.add("mal")
         document.getElementById(c.target.id).classList.remove("bien")
     }
+    switch (input) {
+        case 0:{
+            inputs[0].nombre = expresion.test(c.target.value) === true ? true: false            
+            break;
+        }
+        case 1:{
+            inputs[1].apellido = expresion.test(c.target.value) === true ? true: false
+            break;
+        }
+        case 2:{     
+            inputs[2].tel = expresion.test(c.target.value) === true ? true: false
+            break;
+        }
+        case 3:{
+            inputs[3].email = expresion.test(c.target.value) === true ? true: false
+            break;
+        };
+}
 }
 
 const validarForm = (e) => {   
-
     switch (e.target.id) {
         case "nombre":{
-            validarInput(expresiones.nombre,e,nombre)
+            validarInput(expresiones.nombre,e,0)
             break;
         }
         case "apellido":{
-            validarInput(expresiones.nombre,e,inputs.apellido)
-
+            validarInput(expresiones.nombre,e,1)
             break;
         }
         case "tel":{     
-            validarInput(expresiones.tel,e,inputs.tel)
-
+            validarInput(expresiones.tel,e,2)
             break;
         }
         case "email":{
-            validarInput(expresiones.gmail,e,inputs.email)
-
+            validarInput(expresiones.gmail,e,3)
             break;
         };
-        case "mensaje":{
-            validarInput(expresiones.mensaje,e,inputs.mensaje)
+    }
 
-            break;
-        };
-}
-if (nombre===true){
-    console.log("paso")
-    document.getElementById("enviar").removeAttribute("disabled")
-}else{
-    document.getElementById("enviar").setAttribute("disabled","true")
+    
+    console.log(inputs)
+    if (inputs[0].nombre===true && inputs[1].apellido===true && inputs[2].tel===true && inputs[3].email===true){
+        console.log("paso")
+        document.getElementById("enviar").removeAttribute("disabled")
+    }else{
+        document.getElementById("enviar").setAttribute("disabled","true")
 
-}
+    }
 }   
 
 

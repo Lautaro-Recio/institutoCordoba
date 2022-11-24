@@ -65,10 +65,10 @@ function footer(){
     }
 }
 
-function planesEstudio(){
-    for (const planEstudio of plan)
+function planesEstudio(array,swiperId){
+    for (const planEstudio of array)
     {    
-        let swiper = document.getElementById(`swiperGraphic`)
+        let swiper = document.getElementById(swiperId)
         let div = document.createElement("div");
         div.innerHTML = `<p>${planEstudio.año} Año</p> `
         div.setAttribute("class", "swiper-slide");
@@ -78,7 +78,6 @@ function planesEstudio(){
             li.innerHTML = `
                 ${planEstudio.materias[i]}
             `;
-            console.log(li)
             ul.appendChild(li)
         }
         
@@ -87,7 +86,9 @@ function planesEstudio(){
 
     }
 }
-planesEstudio()
+planesEstudio(planTerciario,"swiperGraphic")
+planesEstudio(planSecundario,"swiperGraphic2")
+
 footer()
 carrousel()
 pregsOfAccordion()

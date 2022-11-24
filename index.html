@@ -89,54 +89,34 @@
           </div>
                    
         <div class="col-lg-12 video">
-          <iframe  src="https://www.youtube.com/embed/fHMGgJWtVwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+          <iframe src="https://drive.google.com/file/d/176_pN7-J2yfYmyUlEVOy-m_LQshhU54T/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
 
         <div class=" row seccion" id="superior">
           <h5 class="tituloSeccion">Nivel superior</h5>
-            <div class="col-lg-6 info">
+            <div class="col-lg-6 info infoEstudio">
               <h5>Historia</h5>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto natus, at corporis dolorum veritatis temporibus dignissimos error, placeat deserunt distinctio dolores possimus ipsam nesciunt laudantium ullam autem ipsum inventore asperiores.</p>
+                  <p>
+                    El IBC inició su actividad en el año 2000, respondiendo a una necesidad de formación profesional del Banco de Córdoba, que luego se extendió al público en general.
+                    El INSTITUTO BANCARIO CÓRDOBA, otorga el título de: <b>Técnico Superior en Gestión Financiera</b> 
+                    Se realizan permanentes actualizaciones en los Planes de Estudios, para adaptarlos a las cambiantes necesidades laborales.
+                    El Instituto promueve además de una formación académica valores como: empatía, solidaridad, compañerismo, y humanidad.
+                    Con la idea de obtener como resultado una persona integral, que aporte lo mejor de sí a la sociedad.</p>
               </div>
               
-            <div class="col-lg-6 info">
+              <div class="col-lg-6 info ">
                 <h5>Plan de Estudios </h5>
-                <ul class="plan">
-                  <li>
-                      <p>Materia</p> 
-                      <ul>
-                          <li>item</li>
-                          <li>item</li>
-                          <li>item</li>
-                      </ul>
-                  </li>
-                  <li>
-                    <p>Materia</p> 
-                    <ul>
-                        <li>item</li>
-                        <li>item</li>
-                        <li>item</li>
-                    </ul>
-                </li>
-                <li>
-                  <p>Materia</p> 
-                  <ul>
-                      <li>item</li>
-                      <li>item</li>
-                      <li>item</li>
-                  </ul>
-              </li>
-              <li>
-                <p>Materia</p> 
-                <ul>
-                  <li>item</li>
-                  <li>item</li>
-                  <li>item</li>
-                </ul>
-            </li>
-              </ul>
-                </div>
+                  <div class="swiper">
+                    <div class="swiper-wrapper" id="swiperGraphic">
+                      
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+            </div>
 
         </div>
 
@@ -186,7 +166,7 @@
             <div class="col-lg-6 info ">
                 <h5>Plan de Estudios </h5>
                   <div class="swiper">
-                    <div class="swiper-wrapper" id="swiperGraphic">
+                    <div class="swiper-wrapper" id="swiperGraphic2">
                       
                     </div>
 
@@ -257,23 +237,23 @@
             <div class="row seccion" id="contacto">
               <div class="col-lg-6">
                   <h5>Contacto</h5>
-                    <form id="form">
+                    <form id="form" action="https://formsubmit.co/reciolauti@gmail.com" method='POST'>
                         <div>
                             <label>Nombre</label>
                             <div>
-                                <input id="nombre"  placeholder="Manuel" type="text" >
+                                <input name="Nombre" id="nombre"  placeholder="Manuel" type="text" >
                             </div>
                         </div>
                         <div>
                             <label >Apellido</label>
                             <div>
-                                <input id="apellido" placeholder="Perez" type="text" >
+                                <input name="Apellido" id="apellido" placeholder="Perez" type="text" >
                             </div>
                         </div>
                         <div>
                             <label >Teléfono</label>
                             <div>
-                                <input id="tel" placeholder="351*******" type="tel" >
+                                <input name="Teléfono" id="tel" placeholder="351*******" type="tel" >
                                 
                             </div>
                         </div>
@@ -281,7 +261,7 @@
                         <div>
                           <label >Email</label>
                           <div>
-                              <input id="email" placeholder="manuelperez@gmail.com" type="email" >
+                              <input id="email" name="Email" placeholder="manuelperez@gmail.com" type="email" >
                           </div>
                         </div>
 
@@ -317,13 +297,15 @@
                         <div>
                             <label >Mensaje</label>
                             <div>
-                                <textArea class="textArea" id="mensaje" type="textarea" placeholder="¿En qué puedo ayudarte?" ></textArea>
+                                <textArea class="textArea" name="mensaje" id="mensaje" type="textarea" placeholder="¿En qué puedo ayudarte?" ></textArea>
                             </div>
                         </div>
                         <div class="botones">
                             <button disabled="true" id="enviar" type="submit">Enviar</button>
                             <button type="reset">Reset</button>
                         </div>
+                        <input type="hidden" name="_next" value=" http://127.0.0.1:5500/index.html"></input>
+                        <input type="hidden" name="_captcha" value="false"></input>
     
                     </form>
                 </div>

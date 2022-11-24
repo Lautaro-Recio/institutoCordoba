@@ -6,8 +6,8 @@ const pregs = [
 ]
 const carousel = [
     {img:"./assets/images/edificio.jpg",h5:"Titulo de muestra",p:"Some representative placeholder content for the slide."},
-    {img:"./assets/images/alumnos.jpg",h5:"Titulo de muestra",p:"Some representative placeholder content for the slide."},
-    {img:"./assets/images/edificio3.jpg",h5:"Titulo de muestra",p:"Some representative placeholder content for the slide."},
+    {img:"./assets/images/alumnos.jpg",h5:"Comprometidos en formar alumnos."},
+    {img:"./assets/images/edificio3.jpg",h5:"Brindando herramientas para generar mejores resultados."},
 
 ]
 const links = [
@@ -15,7 +15,49 @@ const links = [
     {img:"./assets/images/facebook.png", alt:"facebook", link:"#"},
     {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#"},
 ]
-const plan = [
+const planTerciario = [
+    {
+        año:"Primero", 
+        materias:[
+            "Economía ",
+            "Lengua y Comunicación",
+            "Matemática Financiera",
+            "Informática Aplicada I",
+            "Organización y Técnica Bancaria",
+            "Práctica Fiscal y Previsional I",
+            "Sistema de Información Contable I",
+            "Derecho Constitucional y Empresarial",
+            "Actividad Bancaria y Técnicas de Ventas",
+            "Inglés",
+        ]
+    },
+    {
+        año:"Segundo", 
+        materias:[
+            "Historia Social y Económica Argentina",
+            "Sistema de Información Contable II",
+            "Comercio Internacional",
+            "Práctica Profesionalizante I",
+            "Operaciones Financieras",
+            "Informática Aplicada II",
+            "Práctica Fiscal y Previsional II",
+            "Proyecto de Inversión ",
+            "Derecho Laboral y Ética",
+            "Gestión y Administración Educativa",
+        ]
+    },  
+    {
+        año:"Tercero", 
+        materias:[
+            "Práctica Profesionalizante II",
+            "Sistem de Información Contable III",
+            "Gestión Crediticia y Administración Financiera",
+            "Análisis del Riesgo Crediticio",
+        ]
+    },
+]
+
+const planSecundario = [
     {
         año:"Primer", 
         materias:[

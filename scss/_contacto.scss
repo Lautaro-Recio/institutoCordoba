@@ -38,10 +38,12 @@ textarea{
 .bien{
     color: $verde;
     font-weight: 600;
-
+    background-color: rgba(0, 51, 0, 0.144);
 }
 .mal{
     color: red;
+    background-color: rgba(110, 0, 0, 0.356);
+
 }
 .botones{
     display: flex;

@@ -5,15 +5,17 @@ const pregs = [
     {preg:"Pregunta #4", info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur eligendi harum minima, consequuntur tempore tenetur quaerat unde? Ipsa soluta dignissimos animi, sit laudantium porro eveniet cum qui quas quos?", flush:"Four"},
 ]
 const carousel = [
-    {img:"./assets/images/edificio.jpg",h5:"Titulo de muestra",p:"Some representative placeholder content for the slide."},
-    {img:"./assets/images/alumnos.jpg",h5:"Comprometidos en formar alumnos."},
-    {img:"./assets/images/edificio3.jpg",h5:"Brindando herramientas para generar mejores resultados."},
+    {img:"./assets/images/alumnos.jpg",h5:"Comprometidos en formar alumnos"},
+    {img:"./assets/images/alumnos2.jpg",h5:"Brindando herramientas para generar mejores resultados"},
+    {img:"./assets/images/alumnos3.jpg",h5:"Educando para el futuro de una generación"},
 
 ]
 const links = [
-    {img:"./assets/images/instagram.png", alt:"Instagram", link:"#"},
-    {img:"./assets/images/facebook.png", alt:"facebook", link:"#"},
-    {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#"},
+    {img:"./assets/images/instagram.png", alt:"Instagram", link:"httpss://www.instagram.com/institutobancarioeyc/", info:"/institutobancarioeyc"},
+    {img:"./assets/images/facebook.png", alt:"facebook", link:"#", info:"/institutobancarioeyc"},
+    {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#", info:"35153135135"},
+    {img:"./assets/images/mail.png", alt:"mail", link:"#", info:"info@institutobancario.edu.ar"},
+
 ]
 const planTerciario = [
     {

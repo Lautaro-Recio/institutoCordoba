@@ -55,9 +55,13 @@ nav h1 {
   width: 100%;
   height: 500px; }
 
+.carousel h5 {
+  color: #f0f0f0;
+  font-family: 'PT Serif', serif; }
+
 .carousel-caption {
   color: #181818;
-  background-color: rgba(216, 216, 216, 0.5); }
+  background-color: #167a1d73; }
 
 @media only screen and (min-width: 280px) and (max-width: 992px) {
   .carousel img {
@@ -66,6 +70,19 @@ nav h1 {
 .info {
   padding: 2%;
   text-align: center; }
+
+.h5Curso {
+  margin: 0% !important; }
+
+.Objetivos li {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.historia img {
+  height: 100%;
+  width: 100%; }
 
 .infoEstudio p {
   padding: 2% 3%;
@@ -93,6 +110,9 @@ nav h1 {
 .tituloSeccion {
   margin: 0% !important;
   font-size: 25px !important; }
+
+.horarios {
+  text-align: center; }
 
 .horarios div {
   display: flex; }
@@ -131,11 +151,17 @@ nav h1 {
   .horarios div {
     display: flex; }
   .horarios a {
-    margin-bottom: 10%; } }
+    margin-bottom: 10%; }
+  .Objetivos li {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 footer {
   text-align: center;
-  margin-top: 5%; }
+  margin-bottom: 1%;
+  padding-top: 2% !important; }
 
 footer div {
   display: flex;
@@ -144,6 +170,23 @@ footer div {
 footer img {
   width: 50px;
   height: 50px; }
+
+footer a {
+  text-decoration: none; }
+
+.contactoDirecto {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0% 5%; }
+
+.contactoDirecto p {
+  margin: 0% !important;
+  padding: 5% 2%; }
+
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .contactoDirecto {
+    justify-content: flex-start; } }
 
 form {
   width: 100%; }
@@ -178,10 +221,12 @@ textarea {
 
 .bien {
   color: #436c49;
-  font-weight: 600; }
+  font-weight: 600;
+  background-color: rgba(0, 51, 0, 0.144); }
 
 .mal {
-  color: red; }
+  color: red;
+  background-color: rgba(110, 0, 0, 0.356); }
 
 .botones {
   display: flex;
@@ -285,6 +330,9 @@ iframe {
     height: 35px;
     font-size: 13px; } }
 
+.preguntasDisplayNone {
+  display: none; }
+
 .accordion {
   padding: 0% 15%; }
 
@@ -326,7 +374,8 @@ iframe {
 .video iframe {
   width: 80%;
   height: 400px;
-  margin: 0%; }
+  margin: 0%;
+  border: 3px solid #436c49; }
 
 @media only screen and (min-width: 286px) and (max-width: 992px) {
   .video iframe {
@@ -348,13 +397,16 @@ iframe {
 .swiper b {
   color: #f0f0f0; }
 
-.swiper p {
+.swiper p, .curso p {
   border-bottom: 1px solid #e4e4e4;
   margin: 0% 10%;
   color: #436c49;
   font-size: 18px; }
 
-.swiper li {
+.curso ul {
+  padding: 0% !important; }
+
+.swiper li, .curso ul li {
   margin: 2% 10%;
   list-style: none;
   border: 1px solid #e4e4e4;
@@ -399,6 +451,9 @@ b {
   align-items: center;
   border-radius: 5px;
   margin: 2% 15%;
+  font-family: 'PT Serif', serif; }
+
+h4 {
   font-family: 'PT Serif', serif; }
 
 * {

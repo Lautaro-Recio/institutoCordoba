@@ -5,9 +5,14 @@
     width: 100%;
     height: 500px;
 }
+.carousel h5{
+    color: $blanco;
+    font-family: 'PT Serif', serif;    
+
+}
 .carousel-caption{
     color: $negro;
-    background-color: rgba(216, 216, 216, 0.5);
+    background-color: #167a1d73;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 992px) {

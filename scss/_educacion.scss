@@ -4,6 +4,19 @@
     padding: 2%;
     text-align: center;
 }
+.h5Curso{
+    margin: 0% !important;
+}
+.Objetivos li{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historia img{
+    height: 100%;
+    width: 100%;
+}
 
 .infoEstudio p{
     padding: 2% 3%;
@@ -32,6 +45,9 @@
     margin: 0% !important;
     font-size: 25px !important;
 }
+.horarios {
+    text-align: center;
+}
 .horarios div{
     display: flex;
 }
@@ -58,6 +74,7 @@
     color: $blanco;
 }
 
+
 @media only screen and (min-width: 280px) and (max-width: 992px) {
     .info{
         padding: 4% 8%;
@@ -75,5 +92,11 @@
     }
     .horarios a{
         margin-bottom: 10%;
+    }
+    .Objetivos li{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -42,7 +42,6 @@ function carrousel(){
             <img loading="lazy" src=${img.img} class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>${img.h5}</h5>
-              <p>${img.p}</p>
             </div>
             `;
             carouselByID.appendChild(div)
@@ -54,12 +53,15 @@ function footer(){
     {    
         let divLinks = document.getElementById(`links`)
         let a = document.createElement("a");
+        a.setAttribute("class", "col-lg-3");
+
         a.setAttribute("target", "_blank");
         a.setAttribute("href",  link.link );
             a.innerHTML = `
-                <div>
-                    <img loading="lazy" src=${link.img} alt=${link.alt} >
-                </div>
+            <div class="contactoDirecto ">
+                <img loading="lazy" src=${link.img} alt=${link.alt}>
+                <p><b>${link.info}</b></p>
+            </div>
             `;
             divLinks.appendChild(a)
     }

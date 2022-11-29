@@ -10,14 +10,17 @@
 .swiper b{
     color: $blanco; 
 }
-.swiper p{
+.swiper p , .curso p{
     border-bottom: 1px solid $gris ;
     margin: 0% 10%;
     color: $verde;
     font-size: 18px;
+}
+.curso ul{
+    padding: 0% !important;
 
 }
-.swiper li{
+.swiper li, .curso ul li{
     margin: 2% 10%;
     list-style: none;
     border: 1px solid $gris;

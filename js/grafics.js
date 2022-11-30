@@ -72,7 +72,7 @@ function planesEstudio(array,swiperId){
     {    
         let swiper = document.getElementById(swiperId)
         let div = document.createElement("div");
-        div.innerHTML = `<p>${planEstudio.año} Año</p> `
+        div.innerHTML = `<p>${planEstudio.año} </p> `
         div.setAttribute("class", "swiper-slide");
         let ul = document.createElement("ul");
         for (i=0;i <planEstudio.materias.length;i++){
@@ -90,6 +90,7 @@ function planesEstudio(array,swiperId){
 }
 planesEstudio(planTerciario,"swiperGraphic")
 planesEstudio(planSecundario,"swiperGraphic2")
+planesEstudio(temarioYObjetivos,"swiperGraphic3")
 
 footer()
 carrousel()

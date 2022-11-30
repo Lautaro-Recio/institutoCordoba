@@ -7,8 +7,10 @@
 .h5Curso{
     margin: 0% !important;
 }
-.Objetivos li{
+.curso li{
     height: 50px;
+    margin: 5px 10% !important;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +18,7 @@
 .historia img{
     height: 100%;
     width: 100%;
+    display: block;
 }
 
 .infoEstudio p{
@@ -93,8 +96,15 @@
     .horarios a{
         margin-bottom: 10%;
     }
-    .Objetivos li{
+    .curso li{
         height: 100px;
-        max-width: 1% 10%;
+        margin: 1px 5% !important;
+    }
+    .h5Curso{
+        margin: 0% 10% !important;
+        width: 80%; 
+    }
+    .historia img{
+        display: none;
     }
 }

@@ -12,14 +12,14 @@ const carousel = [
 ]
 const links = [
     {img:"./assets/images/instagram.png", alt:"Instagram", link:"httpss://www.instagram.com/institutobancarioeyc/", info:"/institutobancarioeyc"},
-    {img:"./assets/images/facebook.png", alt:"facebook", link:"#", info:"/institutobancarioeyc"},
-    {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#", info:"35153135135"},
+    {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#", info:"0351 2521632"},
+    {img:"./assets/images/whatsapp.png", alt:"whatsapp", link:"#", info:"0351 4254123"},
     {img:"./assets/images/mail.png", alt:"mail", link:"#", info:"info@institutobancario.edu.ar"},
 
 ]
 const planTerciario = [
     {
-        año:"Primero", 
+        año:"Primer Año", 
         materias:[
             "Economía ",
             "Lengua y Comunicación",
@@ -34,7 +34,7 @@ const planTerciario = [
         ]
     },
     {
-        año:"Segundo", 
+        año:"Segundo Año", 
         materias:[
             "Historia Social y Económica Argentina",
             "Sistema de Información Contable II",
@@ -49,7 +49,7 @@ const planTerciario = [
         ]
     },  
     {
-        año:"Tercero", 
+        año:"Tercer Año", 
         materias:[
             "Práctica Profesionalizante II",
             "Sistem de Información Contable III",
@@ -59,9 +59,10 @@ const planTerciario = [
     },
 ]
 
+
 const planSecundario = [
     {
-        año:"Primer", 
+        año:"Primer Año", 
         materias:[
         "Lengua y Literatura",
         "Matemática",
@@ -76,7 +77,7 @@ const planSecundario = [
         ]
     },
     {
-        año:"Segundo", 
+        año:"Segundo Año", 
         materias:[
         "Lengua y Literatura",
         "Matemática",
@@ -91,7 +92,7 @@ const planSecundario = [
         ]
     },
     {
-        año:"Tercero", 
+        año:"Tercer Año", 
         materias:[
         "Lengua y Literatura",
         "Matemática",
@@ -107,7 +108,7 @@ const planSecundario = [
         ]
     },
     {
-        año:"Cuarto", 
+        año:"Cuarto Año", 
         materias:[
         "Matemática",
         "Lengua y Literatura",
@@ -123,7 +124,7 @@ const planSecundario = [
         ]
     },
     {
-        año:"Quinto", 
+        año:"Quinto Año" , 
         materias:[
             "Matemática",
             "Lengua y Literatura",
@@ -142,7 +143,7 @@ const planSecundario = [
         ]
     },  
     {
-        año:"Sexto", 
+        año:"Sexto Año", 
         materias:[
             "Matemática",
             "Lengua y Literatura",
@@ -159,4 +160,34 @@ const planSecundario = [
             "Administración Financiera. <b>Opcional</b>"
         ]
     },
+]
+
+const temarioYObjetivos = [
+    {
+        año:"Objetivos", 
+        materias:[
+            "Comprender el funcionamiento y reglamentación del Mercado de Capitales argentino",
+            "Diferenciar los instrumentos financieros que ofrece el Mercado de Capitales actualmente",
+            "Aplicar herramientas de cálculo financiero para la toma de decisiones",
+            "Armar Flujos de Fondos utilizando planillas de cálculos",
+            "Determinar Valor Actual Neto y Tasa Interna de Retorno de alternativas de inversión",
+            "Identificar Sistemas de Amortización en instrumentos de renta fija",
+            "Calcular rendimiento y riesgo de acciones a través de herramientas estadísticas",
+            "Analizar Estados Contables de empresas con cotización en el Mercado de Capitales",
+            "Utilizar TIC para obtener y analizar información del Mercado de Capitales",
+            "Diseñar secuencias didácticas que apliquen la Educación Financiera",
+        ]
+    }, 
+    {
+        año:"Tématicas", 
+        materias:[
+            "Ley de Mercado de Capitales ",
+            "Alternativas de Inversión y Financiamiento",
+            "Herramientas de cálculo financiero",
+            "Análisis financiero de empresas",
+            "Aplicación de TIC para análisis y cálculo",
+        ]
+    },
+     
+  
 ]
